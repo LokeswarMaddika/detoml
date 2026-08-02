@@ -57,6 +57,11 @@ Credit card fraud detection is a classic imbalanced classification problem. A na
 ## How to Run
 ```bash
 git clone https://github.com/LokeswarMaddika/detoml.git
+
+## Dataset
+Download creditcard.csv from https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+Place it in the fraud-detection/ folder before running the notebook.
+
 cd detoml/week-03-classical-ml/fraud-detection
 pip install -r requirements.txt
 jupyter notebook fraud_detection.ipynb
