@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: stg_transactions
+    columns:
+      - name: id
+        tests:
+          - unique
+          - not_null
+      - name: amount
+        tests:
+          - not_null
+      - name: is_fraud
+        tests:
+          - accepted_values:
+              values: [0, 1]

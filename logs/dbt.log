@@ -1,0 +1,33 @@
+[0m05:07:40.417051 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b828850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c8af940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c8afc70>]}
+
+
+============================== 05:07:40.419354 | de26adbb-5f59-45be-ba76-2e51cc4d2e6d ==============================
+[0m05:07:40.419354 [info ] [MainThread]: Running with dbt=1.10.23
+[0m05:07:40.419713 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'introspect': 'True', 'log_format': 'default', 'debug': 'False', 'log_cache_events': 'False', 'target_path': 'None', 'invocation_command': 'dbt init fraud_dbt', 'printer_width': '80', 'profiles_dir': '/Users/lokeshmaddika/.dbt', 'warn_error': 'None', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'cache_selected_only': 'False', 'write_json': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'static_parser': 'True', 'quiet': 'False', 'indirect_selection': 'eager', 'version_check': 'True', 'fail_fast': 'False', 'no_print': 'None', 'log_path': 'logs'}
+[0m05:07:40.424673 [warn ] [MainThread]: [[33mWARNING[0m]: This version of dbt is deprecated and no longer receives regular patches, including for known bugs. Please upgrade to a newer supported version of dbt for new projects: https://docs.getdbt.com/docs/dbt-versions?utm_source=dbt-cli
+[0m05:07:40.424854 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecated_version_invocation', 'label': 'de26adbb-5f59-45be-ba76-2e51cc4d2e6d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c8af940>]}
+[0m05:07:40.425062 [info ] [MainThread]: Creating dbt configuration folder at /Users/lokeshmaddika/.dbt
+[0m05:07:40.425723 [debug] [MainThread]: Starter project path: /Users/lokeshmaddika/detoml/venv/lib/python3.9/site-packages/dbt/include/starter_project
+[0m05:07:40.428398 [info ] [MainThread]: 
+Your new dbt project "fraud_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m05:07:40.428553 [info ] [MainThread]: Setting up your profile.
+[0m05:08:14.256155 [info ] [MainThread]: Profile fraud_dbt written to /Users/lokeshmaddika/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m05:08:14.258775 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 33.877964, "process_in_blocks": "0", "process_kernel_time": 0.156695, "process_mem_max_rss": "140902400", "process_out_blocks": "0", "process_user_time": 1.439286}
+[0m05:08:14.259064 [debug] [MainThread]: Command `dbt init` succeeded at 05:08:14.258996 after 33.88 seconds
+[0m05:08:14.259290 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b828850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c83af10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c8af070>]}
+[0m05:08:14.259538 [debug] [MainThread]: Flushing usage events
+[0m05:08:14.465999 [debug] [MainThread]: An error was encountered while trying to flush usage events
